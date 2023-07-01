@@ -1,0 +1,284 @@
+/*? Nav шапка */
+@media (max-width: 428px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (min-width: 428px) and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+/*? Мобільна кнопка меню в шапці  */
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    /*? Блок Хідер */
+
+    .header {
+        border-bottom: 1px solid #e7e9fc;
+        padding-top: 16px;
+        padding-bottom: 8px;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
+    }
+
+    .menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    /*? Адреса та контакт */
+
+    .address-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contact {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
+
+    /*? Заголовок банера */
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        font-size: 56px;
+        margin-bottom: 36px;
+    }
+
+    /*! Секція 1 */
+    .banner-hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tablet.jpg);
+    }
+
+    /*! Секція 2 */
+    .benefits-list {
+        flex-direction: row;
+        gap: 72px 24px;
+    }
+
+    .benefits-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    /*! Секція 4 */
+    .team {
+        flex-direction: row;
+        gap: 64px 24px;
+    }
+
+    /*! Секція 5 */
+    .customers-list {
+        gap: 72px 24px;
+    }
+
+    .customers-item {
+        flex-basis: calc((100% - 48px) / 3);
+    }
+
+    /*! Футер */
+    .footer-container {
+        flex-direction: column;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+    }
+
+    .footer-container-ftr {
+        display: flex;
+        align-items: baseline;
+        gap: 24px;
+    }
+
+    .footer-section {
+        text-align: left;
+    }
+
+    .footer-social-section {
+        margin-top: 0;
+    }
+
+    /*! Футер форм */
+    .footer-form-text {
+        text-align: left;
+    }
+
+    .footer-form-form {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+}
+
+@media (min-width: 1158px) {
+    .header {
+        padding-top: 24px;
+        padding-bottom: 21px;
+    }
+
+    .address-contact {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .contact {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    /*! Секція 1 банер */
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 48px;
+    }
+
+    .banner-hero {
+        max-width: 1440px;
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-desktop.jpg);
+        padding: 188px 0;
+    }
+
+    /*! Секція 2 */
+    .benefits {
+        padding: 120px 0;
+    }
+
+    .benefits-list {
+        gap: 24px;
+    }
+
+    .benefits-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .benefits-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .benefits-text {
+        font-weight: 400;
+    }
+
+    .icon-benefits {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        background: #f4f4fd;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+    }
+
+    /*! Секція 3 */
+    .digital {
+        display: block;
+    }
+
+    /*! Секція 4 */
+
+    .team {
+        padding: 120px 0;
+    }
+
+    .team-list {
+        gap: 24px;
+    }
+
+    .team-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    /*! Секція 5 */
+    .customers-list {
+        gap: 21px;
+    }
+
+    .customers-item {
+        flex-basis: calc((100% - 120px) / 6);
+    }
+
+    .footer-container {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        align-items: baseline;
+    }
+
+    .footer-container-ftr {
+        display: flex;
+        align-items: baseline;
+        gap: 120px;
+    }
+
+    .footer-social-text {
+        text-align: left;
+    }
+
+    .footer-section {
+        text-align: left;
+    }
+
+    .footer-social-section {
+        margin-top: 0;
+    }
+
+    .footer-form-text {
+        text-align: left;
+    }
+
+    .footer-form-form {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+}
+
+@media (min-width: 1212px) {
+    .footer-container {
+        gap: 80px;
+    }
+}
+
+@media (min-resolution: 192dpi) {
+    .banner-hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-mobile@2x.jpg);
+    }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+    .banner-hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tablet@2x.jpg);
+    }
+}
+
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
+    .banner-hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-desktop@2x.jpg);
+    }
+}
